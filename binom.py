@@ -2,7 +2,7 @@ import numpy as np
 from scipy import stats
 from matplotlib import pyplot as pl
 
-prob_flere = stats.binom_test(15,20,0.5)
+prob_flere = stats.binom_test(2,20,0.5)
 prob_en = stats.binom.pmf(range(20),20,0.5)
 
 print(prob_flere)
